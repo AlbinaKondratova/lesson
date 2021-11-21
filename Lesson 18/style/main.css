@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1300px;
+    position: relative;
+    left: 300px;
+}
+
+ul{
+    position: relative;
+    left: 800px;
+}
+
+header::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    border: 1px solid lightgray;
+}
+
+.seredina::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    border: 1px solid lightgray;
+    margin: 50px 0 0 0;
+}

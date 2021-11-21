@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: lightgrey;
+}
+
+h2{
+    text-transform: uppercase;
+    padding: 30px 0 0 20px;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 0 20px;
+
+    color:slateblue;
+}
+
+.visited:link{
+    color: salmon;
+}
+
+.visited:visited{
+    color: rgb(247, 9, 9);
+}
+
+.link:link{
+    color: green;
+}
+
+.link:visited{
+    color: red;
+}
+
+.hover{
+    color: rgb(1, 167, 1);
+
+    padding: 20px 0 0 20px;
+}
+
+.hover:hover{
+    color: red;
+
+    font-size: 20px;
+}
+
+.active:active{
+    color: white;
+}
+
+.focus:focus{
+    color:white;
+}
+
+.child{
+    color: green;
+
+    padding: 20px 0 0 20px;
+}
+
+.interface{
+    display: flex;
+    flex-direction: row;
+
+    padding: 20px 0 0 20px;
+}
+
+.name{
+    text-transform: capitalize;
+    margin: 0 20px 0 0;
+}
+
+.reynolds{
+    border: none;
+    background-color: rgb(241, 238, 238);
+    height: 15px;
+
+    position: relative;
+    top:  5px;
+}
+
+
+input:checked{
+    width: 20px;
+    height: 20px;
+}
+
+.malcolm:focus{
+    box-shadow: 0 0 10px 10px black;
+}
+
+.reynolds:hover{
+    background-color: lightpink;
+}
+
+.checkbox:focus{
+    -ms-transform: scale(2); 
+  -moz-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2); 
+  transform: scale(2);
+  padding: 10px;
+
+ 
+
+  font-size: 110%;
+  display: inline;
+}
+

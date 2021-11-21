@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.one{
+    width: 400px;
+    height: 600px;
+
+    border: 2px solid lightgrey;
+    box-shadow: 0 0 5px 5px lightgrey;
+}
+
+.two{
+    width: 400px;
+    height: 600px;
+
+    border: 2px solid lightgrey;
+    box-shadow: 0 0 5px 5px lightgrey;
+}
+
+.three{
+    width: 400px;
+    height: 600px;
+
+    border: 2px solid lightgrey;
+    box-shadow: 0 0 5px 5px lightgrey;
+}
+
+.four{
+    width: 400px;
+    height: 600px;
+
+    border: 2px solid lightgrey;
+    box-shadow: 0 0 5px 5px lightgrey;
+}
+
+.one:hover{
+    height: 800px;
+}
+
+.two:hover{
+    height: 800px;
+}
+
+.three:hover{
+    height: 800px;
+}
+
+.four:hover{
+    height: 800px;
+}

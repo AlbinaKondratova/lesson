@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(151, 226, 240);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+img{
+    background-color: azure;
+    border-radius: 90%;
+    width: 200px;
+    height: 200px;
+}
+.ull{
+  list-style-type: square;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ol{
+    color: rgb(179, 174, 167);
+}
+ul li{
+    color: black;
+}
+li{
+    list-style-type: square;
+}

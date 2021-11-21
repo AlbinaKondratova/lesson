@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+}
+
+a .thisis::after{
+ content:">";
+ position: relative;
+ margin: 0 7px;
+ bottom: 0;
+ display: inline-block;
+ 
+
+ -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+a .thisis:hover::after{
+    -webkit-transform: translateX(3px);
+  transform: translateX(3px);
+}
+
+.pseudo-element{
+    background-color: white;
+    width: 950px;
+    height: 500px;
+
+   position: relative;
+   left: 500px;
+}
+
+h1{
+    color: black;
+    text-transform: uppercase;
+
+    padding: 20px 0 0 20px;
+}
+
+a{
+    text-decoration: none;
+
+    color: black;
+
+    padding: 0 0 0 20px;
+
+    position: relative;
+    top: 10px;
+}
+
+h2{
+    color: black;
+    text-transform: uppercase;
+
+    padding: 20px 0 0 20px;
+}
+
+a .arrow::after{
+    position: absolute;
+        margin: 0 7px;
+        bottom: 0;
+        top: 347px;
+        text-decoration: underline;
+
+        content: "https://www.google.com";
+
+}

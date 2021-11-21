@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(/styles/067ee503-5f1b-44e1-99d6-4b6d94805630.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:royalblue;
+
+}
+
+h2{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+.transform{
+    text-transform: capitalize;
+    color: white
+}
+
+.started{
+    color: white;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.begin{
+    width: 100%;
+    height: 8vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center{
+    width: 100%;
+    height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.center > p{
+    padding: 30px 0;
+}
+
+.btn{
+    text-transform: uppercase;
+    border: 2px solid white;
+
+    padding: 10px 0;
+    width: 180px;
+    text-align: center;  
+    font-weight: 700;
+}
+
+.btn:hover{
+    background:white;
+    color: #000;
+}
+
+li:hover{
+    font-weight: 700;
+}
+
+main{
+    width: 100%;
+    height: 70vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    
+}
+
+.main-inner{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.zagolovok{
+    color: black;
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+
+}
+
+.line{
+    width: 50px;;
+    height: 3px; ;
+    background-color:black;
+
+    
+}
+
+
+.main-intro{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-intro > p{
+    padding: 30px 0;
+}
+
+.main-view{
+    width: 100%;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+.a{
+    margin: 0 0 0 150px;
+    
+    font-size: 40px;
+    color: rgb(126, 27, 27);
+    
+    width: 90px;
+    height: 90px;
+    
+    border: 2px solid rgb(185, 185, 185);
+
+    border-radius:50%;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.code{
+    margin: 0 0 0 150px;
+    
+    font-size: 40px;
+    color: rgb(126, 27, 27);
+    
+    width: 90px;
+    height: 90px;
+    
+    border: 2px solid rgb(185, 185, 185);
+
+    border-radius:50%;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.support{
+    margin: 0 0 0 150px;
+    
+    font-size: 40px;
+    color: rgb(126, 27, 27);
+    
+    width: 90px;
+    height: 90px;
+    
+    border: 2px solid rgb(185, 185, 185);
+
+    border-radius:50%;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.a:hover{
+    color: white;
+    background-color:rgb(155, 9, 9);
+}
+
+.code:hover{
+    color: white;
+    background-color:rgb(155, 9, 9);
+}
+
+.support:hover{
+    color: white;
+    background-color:rgb(155, 9, 9);
+}
+
+.uppercase{
+    text-transform: uppercase;
+
+    margin: 20px 0 0 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.lorem{
+    padding: 30px 30px 0 0;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color:rgb(156, 4, 4);
+}
+
+.text{
+    color: white;
+    padding: 50px 0 0 0;
+}
+
+.twitter{
+    font-size: 20px;
+    color: white;
+
+    border: 2px solid white;
+    
+    margin: 0 20px 0 0;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.vk{
+    font-size: 20px;
+    color: white;
+
+    margin: 0 20px 0 0;
+
+    border: 2px solid white;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.instagram{
+    font-size: 20px;
+    color: white;
+
+    margin: 0 20px 0 0;
+
+    border: 2px solid white;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.telegram{
+    font-size: 20px;
+    color: white;
+
+    margin: 0 20px 0 0;
+
+    border: 2px solid white;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.iconki{
+    width: 100%;
+
+    padding: 100px 0 0 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

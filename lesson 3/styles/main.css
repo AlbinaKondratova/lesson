@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+    height: 80vh;
+
+    border-collapse: collapse;
+    text-align: center;
+
+    margin: 30px 0 0 0;
+}
+th,td {
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+    margin: 10px 0px 0 800px;
+}
+
+body{
+    background: linear-gradient(79deg, rgba(192,148,203,0.9023984593837535) 25%, rgba(203,124,193,0.8939950980392157) 47%, rgba(167,113,230,0.8883928571428571) 69%);
+}
+
+td:hover{
+    width: 300px;
+    height: 150px;
+
+    border: 2px solid rgb(87, 87, 87);
+}
